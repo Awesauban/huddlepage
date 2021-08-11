@@ -12,100 +12,107 @@
   </head>
 
   <body class="page__body">
-    <header class="header__container">
+    <header class="header__container bg">
       <div class="all--header__element">
         <div class="top--header">
           <div class="page--logo__container">
-            <img src="images/logo.svg" alt="company logo" class="page--logo">      
+            <a href="#" class="page__logo--link" rel="home">
+              <img src="images/logo.svg" alt="company logo" class="page--logo">
+            </a>      
           </div>
-          <button class="btn btn--try">Try It Free</button>
+          <a href="#" role="button" class="btn btn--try">Try It Free</a>
         </div>
-        <div class="hero">
-          <div class="hero__text">
-            <h1>Build The Community<br>Your Fans Will Love</h1>
-            <p> Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
-            <button class="btn btn--get-started-top">Get Started For Free</button>
-          </div>
-          <div class="hero__img-container">
-            <img src="images/illustration-mockups.svg" alt="landing page with alternate options" class="hero__content-img">
-          </div>
-        </div>
-      </div>
+      </header>
     </header>
 
     <main>
-      <div class="container">
-        <div class="content grow--content"> 
+      <div class="hero bg">
+        <div class="hero__sub--ctn">
+          <div class="hero__text">
+            <h1>Build The Community<br>Your Fans Will Love</h1>
+            <p> Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+            <a href="#" role="button" class="btn btn--get-started-top">Get Started For Free</a>
+          </div>
+          <div class="hero__img-container">
+            <img src="images/illustration-mockups.svg" alt="" class="hero__content-img">
+          </div>
+        </div>
+      </div>
+
+      <section class="container">
+        <section class="content grow--content"> 
           <div class="image__container">
-            <img class="content__img" src="images/illustration-grow-together.svg" alt="an illustration of two people standing">
+            <img class="content__img" src="images/illustration-grow-together.svg" alt="">
           </div>
           <div class="content__text">
             <h2>Grow Together</h2>
             <p>Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form. </p>
-          </div>
+          </section>
         </div>
-        <div class="content flow--content">
+        <section class="content flow--content">
           <div class="image__container">
-            <img class="content__img" src="images/illustration-flowing-conversation.svg" alt="an illustration of four individual sitting">
+            <img class="content__img" src="images/illustration-flowing-conversation.svg" alt="">
           </div>
           <div class="content__text">
             <h2>Flowing Conversations</h2>
             <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
           </div>
-        </div>    
+        </section>    
         
-        <div class="content users--content">
+        <section class="content users--content">
           <div class="image__container">
-            <img class="content__img" src="images/illustration-your-users.svg" alt="users illustration">
+            <img class="content__img" src="images/illustration-your-users.svg" alt="">
           </div>
           <div class="content__text">
             <h2>Your Users</h2>
             <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
           </div>
-        </div>
-      </div>
+        </section>
+      </section>
     </main> 
 
     <div class="all__btm--container">
       <div class="build__container">
         <div class="build__community-cta">
           <span>Ready To Build Your Community?</span>
-          <button class="btn btn--get-started-btm">Get Started For Free</button>
+          <a href="#" role="button" class="btn btn--get-started-btm">Get Started For Free</a>
         </div>
       </div>
       <footer class="footer__container all__footer--ctn">
         <div class="footer__ctn--text footer__content">
           <div class="item--one">
-            <div class="page__logo-container-btm">
-              <img src="images/logo-btm.svg" alt="company logo" class= "page__logo-btm"> 
+            <div class="page__logo-container-btm"> 
+              <a href="#" class="page__logo--link" rel="home">
+                <img src="images/logo-btm.svg" alt="huddle logo" class= "page__logo-btm">
+              </a> 
             </div>
             <address class="company__address">
               <div class="location__tab">
                 <img src="images/icon-location.svg" alt="company location" class="location__icon">
                 <p class="location__text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
               </div> 
-              <a href="#"> <img src="images/icon-phone.svg" alt="company phone number" class="address__icon"> +1-543-123-4567</a><br>
-              <a href="#"> <img src="images/icon-email.svg" alt="company email address" class="address__icon">example@huddle.com</a>
+              <a href="#"> <img src="images/icon-phone.svg" alt="#" class="address__icon"> +1-543-123-4567</a><br>
+              <a href="#"> <img src="images/icon-email.svg" alt="#" class="address__icon">example@huddle.com</a>
             </address>
           </div>
           <div class="list--item">
             <div class="list--container">
               <ul class="list--style item__text_one">
-                <li>About Us</li>
-                <li>What We Do</li>
-                <li>FAQ</li>
+                <li><a href="#" class="page__link">About Us</a></li>
+                <li><a href="#" class="page__link">What We Do</a></li>
+                <li><a href="#" class="page__link">FAQ</a></li>
               </ul>
               <ul class="list--style item__text_two">
-                <li>Career</li>
-                <li>Blog</li>
-                <li>Contact Us</li>
+                <li><a href="#" class="page__link">Career</a></li>
+                <li><a href="#" class="page__link">Blog</a></li>
+                <li><a href="#" class="page__link">Contact Us</a></li>
               </ul>
             </div>
           </div>
           <div class="social--icon">
-            <ion-icon name="logo-facebook" class="ion--social"></ion-icon>
-            <ion-icon name="logo-twitter" class="ion--social"></ion-icon>
-            <ion-icon name="logo-instagram" class="ion--social"></ion-icon>
+            <a href="#" class="social__link"><ion-icon name="logo-facebook" class="ion--social" aria-hidden="true"></ion-icon></a>
+            <a href="#" class="social__link"><ion-icon name="logo-twitter" class="ion--social" aria-hidden="true"></ion-icon></a>
+            <a href="#" class="social__link"><ion-icon name="logo-instagram" class="ion--social" aria-hidden="true"></ion-icon></a>
           </div>
         </div>
         <div class="copy--text">&copy; Copyright 2018 Huddle. All rights reserved.</div>
